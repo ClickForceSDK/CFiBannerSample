@@ -26,11 +26,15 @@
     [banner setAdAutoRefreshTime:30];
     [banner setBannerBackgroudColor:[UIColor redColor]];
     banner.bannerId = @"3783" ;
-    
+    banner.delegate = self;
     [self.view addSubview:banner];
     [banner requestAd];
     
-    
+}
+
+- (void)requestAdSuccess
+{
+    [banner show];
 }
 
 

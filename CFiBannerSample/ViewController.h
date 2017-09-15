@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MFBannerView.h"
+#import <iMFAD/iMFAD.h>
 
 @interface ViewController : UIViewController<MFBannerDelegate>
 {
