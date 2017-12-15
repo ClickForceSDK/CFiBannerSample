@@ -28,7 +28,7 @@
 		2221A0811F205EC80027258F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A0801F205EC80027258F /* QuartzCore.framework */; };
 		2221A0831F205ED10027258F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A0821F205ED10027258F /* SystemConfiguration.framework */; };
 		2221A0851F205ED90027258F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A0841F205ED90027258F /* UIKit.framework */; };
-		222896DB1F8767FF00CB0513 /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222896DA1F87677C00CB0513 /* iMFAD.framework */; };
+		22A6FE961FE36BDB00D4F6C2 /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A6FE951FE36BDB00D4F6C2 /* iMFAD.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,7 +91,7 @@
 		2221A0801F205EC80027258F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		2221A0821F205ED10027258F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		2221A0841F205ED90027258F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		222896DA1F87677C00CB0513 /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
+		22A6FE951FE36BDB00D4F6C2 /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +99,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				222896DB1F8767FF00CB0513 /* iMFAD.framework in Frameworks */,
 				2221A0851F205ED90027258F /* UIKit.framework in Frameworks */,
 				2221A0831F205ED10027258F /* SystemConfiguration.framework in Frameworks */,
 				2221A0811F205EC80027258F /* QuartzCore.framework in Frameworks */,
 				2221A07F1F205E120027258F /* MobileCoreServices.framework in Frameworks */,
 				2221A07D1F205E0A0027258F /* MessageUI.framework in Frameworks */,
+				22A6FE961FE36BDB00D4F6C2 /* iMFAD.framework in Frameworks */,
 				2221A07B1F205DF10027258F /* MediaPlayer.framework in Frameworks */,
 				2221A0791F205DE90027258F /* Foundation.framework in Frameworks */,
 				2221A0771F205DDE0027258F /* EventKit.framework in Frameworks */,
@@ -135,7 +135,7 @@
 		22219F621F205CEA0027258F = {
 			isa = PBXGroup;
 			children = (
-				222896DA1F87677C00CB0513 /* iMFAD.framework */,
+				22A6FE951FE36BDB00D4F6C2 /* iMFAD.framework */,
 				22219F6D1F205CEA0027258F /* CFiBannerSample */,
 				22219F8A1F205CEA0027258F /* CFiBannerSampleTests */,
 				22219F951F205CEA0027258F /* CFiBannerSampleUITests */,
