@@ -16,19 +16,8 @@
 		22219F811F205CEA0027258F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22219F7F1F205CEA0027258F /* LaunchScreen.storyboard */; };
 		22219F8C1F205CEA0027258F /* CFiBannerSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22219F8B1F205CEA0027258F /* CFiBannerSampleTests.m */; };
 		22219F971F205CEA0027258F /* CFiBannerSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22219F961F205CEA0027258F /* CFiBannerSampleUITests.m */; };
-		2221A06F1F205DBC0027258F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A06E1F205DBC0027258F /* AddressBook.framework */; };
-		2221A0711F205DC30027258F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A0701F205DC30027258F /* CoreFoundation.framework */; };
-		2221A0731F205DCB0027258F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A0721F205DCB0027258F /* CoreGraphics.framework */; };
-		2221A0751F205DD30027258F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A0741F205DD30027258F /* CoreLocation.framework */; };
-		2221A0771F205DDE0027258F /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A0761F205DDE0027258F /* EventKit.framework */; };
-		2221A0791F205DE90027258F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A0781F205DE90027258F /* Foundation.framework */; };
-		2221A07B1F205DF10027258F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A07A1F205DF10027258F /* MediaPlayer.framework */; };
-		2221A07D1F205E0A0027258F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A07C1F205E0A0027258F /* MessageUI.framework */; };
-		2221A07F1F205E120027258F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A07E1F205E120027258F /* MobileCoreServices.framework */; };
-		2221A0811F205EC80027258F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A0801F205EC80027258F /* QuartzCore.framework */; };
-		2221A0831F205ED10027258F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A0821F205ED10027258F /* SystemConfiguration.framework */; };
 		2221A0851F205ED90027258F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A0841F205ED90027258F /* UIKit.framework */; };
-		22A6FE961FE36BDB00D4F6C2 /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A6FE951FE36BDB00D4F6C2 /* iMFAD.framework */; };
+		22836A0920172D15001B4265 /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22836A0820172D15001B4265 /* iMFAD.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,7 +80,7 @@
 		2221A0801F205EC80027258F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		2221A0821F205ED10027258F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		2221A0841F205ED90027258F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		22A6FE951FE36BDB00D4F6C2 /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
+		22836A0820172D15001B4265 /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,19 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22836A0920172D15001B4265 /* iMFAD.framework in Frameworks */,
 				2221A0851F205ED90027258F /* UIKit.framework in Frameworks */,
-				2221A0831F205ED10027258F /* SystemConfiguration.framework in Frameworks */,
-				2221A0811F205EC80027258F /* QuartzCore.framework in Frameworks */,
-				2221A07F1F205E120027258F /* MobileCoreServices.framework in Frameworks */,
-				2221A07D1F205E0A0027258F /* MessageUI.framework in Frameworks */,
-				22A6FE961FE36BDB00D4F6C2 /* iMFAD.framework in Frameworks */,
-				2221A07B1F205DF10027258F /* MediaPlayer.framework in Frameworks */,
-				2221A0791F205DE90027258F /* Foundation.framework in Frameworks */,
-				2221A0771F205DDE0027258F /* EventKit.framework in Frameworks */,
-				2221A0751F205DD30027258F /* CoreLocation.framework in Frameworks */,
-				2221A0731F205DCB0027258F /* CoreGraphics.framework in Frameworks */,
-				2221A0711F205DC30027258F /* CoreFoundation.framework in Frameworks */,
-				2221A06F1F205DBC0027258F /* AddressBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +113,7 @@
 		22219F621F205CEA0027258F = {
 			isa = PBXGroup;
 			children = (
-				22A6FE951FE36BDB00D4F6C2 /* iMFAD.framework */,
+				22836A0820172D15001B4265 /* iMFAD.framework */,
 				22219F6D1F205CEA0027258F /* CFiBannerSample */,
 				22219F8A1F205CEA0027258F /* CFiBannerSampleTests */,
 				22219F951F205CEA0027258F /* CFiBannerSampleUITests */,
@@ -504,6 +482,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -527,6 +506,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
