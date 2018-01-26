@@ -17,7 +17,7 @@
 		22219F8C1F205CEA0027258F /* CFiBannerSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22219F8B1F205CEA0027258F /* CFiBannerSampleTests.m */; };
 		22219F971F205CEA0027258F /* CFiBannerSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22219F961F205CEA0027258F /* CFiBannerSampleUITests.m */; };
 		2221A0851F205ED90027258F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A0841F205ED90027258F /* UIKit.framework */; };
-		22836A0920172D15001B4265 /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22836A0820172D15001B4265 /* iMFAD.framework */; };
+		22BA4A7B201B0C61007E312F /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA4A7A201B0C61007E312F /* iMFAD.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,7 +80,7 @@
 		2221A0801F205EC80027258F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		2221A0821F205ED10027258F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		2221A0841F205ED90027258F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		22836A0820172D15001B4265 /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
+		22BA4A7A201B0C61007E312F /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22836A0920172D15001B4265 /* iMFAD.framework in Frameworks */,
+				22BA4A7B201B0C61007E312F /* iMFAD.framework in Frameworks */,
 				2221A0851F205ED90027258F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -113,7 +113,7 @@
 		22219F621F205CEA0027258F = {
 			isa = PBXGroup;
 			children = (
-				22836A0820172D15001B4265 /* iMFAD.framework */,
+				22BA4A7A201B0C61007E312F /* iMFAD.framework */,
 				22219F6D1F205CEA0027258F /* CFiBannerSample */,
 				22219F8A1F205CEA0027258F /* CFiBannerSampleTests */,
 				22219F951F205CEA0027258F /* CFiBannerSampleUITests */,
