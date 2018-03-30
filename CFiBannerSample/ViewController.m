@@ -23,7 +23,7 @@
     
     banner = [[MFBannerView alloc] initWithAdSize:MFAdSize320X50 origin:CGPointMake((r.size.width-320)/2, r.size.height-50)];
     [banner setBannerAlignment:Alignment_Center];
-    [banner setAdAutoRefreshTime:0];
+    [banner setAdAutoRefresh:YES];
     banner.bannerId = @"3783" ;
     banner.delegate = self;
     [self.view addSubview:banner];
