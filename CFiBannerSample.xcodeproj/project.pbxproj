@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		221AE511206DDDDE0055DD1A /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221AE510206DDDDE0055DD1A /* iMFAD.framework */; };
+		2218140E20B6C04000637490 /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2218140D20B6C04000637490 /* iMFAD.framework */; };
 		22219F701F205CEA0027258F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22219F6F1F205CEA0027258F /* main.m */; };
 		22219F731F205CEA0027258F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22219F721F205CEA0027258F /* AppDelegate.m */; };
 		22219F761F205CEA0027258F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22219F751F205CEA0027258F /* ViewController.m */; };
@@ -51,7 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		221AE510206DDDDE0055DD1A /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
+		2218140D20B6C04000637490 /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
 		22219F6B1F205CEA0027258F /* CFiBannerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFiBannerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22219F6F1F205CEA0027258F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22219F711F205CEA0027258F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				221AE511206DDDDE0055DD1A /* iMFAD.framework in Frameworks */,
+				2218140E20B6C04000637490 /* iMFAD.framework in Frameworks */,
 				2221A0851F205ED90027258F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -113,7 +113,7 @@
 		22219F621F205CEA0027258F = {
 			isa = PBXGroup;
 			children = (
-				221AE510206DDDDE0055DD1A /* iMFAD.framework */,
+				2218140D20B6C04000637490 /* iMFAD.framework */,
 				22219F6D1F205CEA0027258F /* CFiBannerSample */,
 				22219F8A1F205CEA0027258F /* CFiBannerSampleTests */,
 				22219F951F205CEA0027258F /* CFiBannerSampleUITests */,
